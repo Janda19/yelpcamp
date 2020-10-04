@@ -1,0 +1,18 @@
+<%- include ("partials/header") -%>
+
+<div class="edit_background">
+    <div class="container new">
+        <form action="/campgrounds/<%= campground._id %>?_method=put" method="post">
+            <label for="name">place</label>
+            <input id="name" type="text" name="campground[name]" placeholder="place" value="<%= campground.name %>">
+            <label for="image">image url</label>
+            <input id="image" type="url" name="campground[image]" placeholder="image url *" value="<%= campground.image %>">
+            <label for="discription">discription</label>
+            <textarea id="discription" name="campground[discription]" id="" cols="20" rows="4" placeholder="discription"> <%= campground.discription %></textarea>
+            <input type="submit" value="submit" class="btn ">
+        </form>
+        <a href="/">back</a>
+    </div>
+</div>
+
+<%- include ("partials/footer") -%>

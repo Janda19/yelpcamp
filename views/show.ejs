@@ -1,0 +1,88 @@
+<%- include ("partials/header") -%>
+
+<div class="show_background">
+    <div class="row">
+        <div class="container " id="show_container">
+            <div class="show">
+                <h2 style="margin-bottom:20px "><%= campground.name %></h2>
+                <div>
+                    <img class=" col-md-6 d-flex justify-content-center align-items-center show_img"
+                         src="<%= campground.image %>" title="<%= campground.date.toDateString() %>"
+                         alt="">
+                </div>
+                <div class="col-md-6 ">
+                    <div class="show_text container">
+                        <p><%= campground.discription %></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="show_links">
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <p>comments: <%= campground.comment.length %> </p>
+        <button class="comment_btn">comment</button>
+    </div>
+    <div class="container comment_conatainer">
+        <% if (currentUser){ %>
+            <form action="/campgrounds/<%= campground._id %>/comments" method="post" id="myForm">
+
+                <!--            <input type="text" placeholder="Author" required name="comment[author]">-->
+
+                <input type="text" placeholder="comment" required name="comment[text]">
+                <input type="submit">
+            </form>
+        <% } %>
+
+        <table style="border: white solid 2px; width:100%">
+            <% campground.comment.forEach(function (comment) { %>
+                <tr style="border-bottom: white 1px solid; padding: 8px">
+                    <td style="width: 50px;padding: 10px 20px 10px 10px ">
+                        <strong><%= comment.author.username %></strong></td>
+                    <td style="color: white ; font-size:  small;font-family: Consolas;"><%= comment.text %></td>
+                    <!-- USER AUTHORIZATION  -->
+
+                    <% if (currentUser && comment.author.id.equals(currentUser._id)){ %>
+                        <td>
+                            <form style="display:flex; " action="/campgrounds/<%= comment._id %>/comment?_method=delete"
+                                  method="post">
+                                <button>delete</button>
+                            </form>
+                        </td>
+                        <td>
+                            <button class="updateButton">update</button>
+
+                            <form class="updateForm" style="display: none" action="/campgrounds/<%= comment._id %>/comment?_method=put" method="post">
+                                <input type="text" name="comment[text]" value="<%=comment.text%>">
+                                <button>submit</button>
+                            </form>
+                        </td>
+                        <script>
+                            var updateButton = document.querySelector(".updateButton");
+                            var updateForm = document.querySelector(".updateForm");
+                            updateButton.addEventListener("click", function () {
+                                if (updateForm.style.display === "none") {
+                                    updateForm.style.display = "block";
+                                } else {
+                                    updateForm.style.display = "none";
+
+                                }
+                            });
+                        </script>
+                    <% } %>
+                    <!--   -->
+
+
+                </tr>
+            <% }) %>
+        </table>
+
+
+    </div>
+</div>
+
+<%- include ("partials/footer") -%>
+

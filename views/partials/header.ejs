@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon"
+          href="data:image/png;base64,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">
+    <title>YelpCamp</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark">
+    <a href="/" class="navbar navbar-brand"><img class="navbarIcon"
+                                                 src="data:image/png;base64,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"
+                                                 alt="">YELPCAMP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link navbarLink" href="/campgrounds">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  navbarLink" href="/campgrounds/new">add campground</a>
+            </li>
+
+
+            <span class="auth" >
+
+                <% if(!currentUser){ %>
+
+                    <li class="nav-item login">
+                <a class="nav-link  navbarLink" href="/login">login</a>
+            </li>
+                    <li class="nav-item register ">
+                <a class="nav-link  navbarLink" href="/register">register</a>
+            </li>
+
+                <% }else{ %>
+                    <li class="nav-item" style="width: 200px; display: flex; align-items: center"><a class="nav-link navbarLink"
+                                                                                                    href="#"> <img
+                                    src="https://i.pinimg.com/originals/0c/3b/3a/0c3b3adb1a7530892e55ef36d3be6cb8.png"
+                                    alt=""
+                                    style="width: 15px;height: 15px; margin-right: 5px;"><%= currentUser.username %></a>
+            </li>
+                    <li class="nav-item register ">
+                <a class="nav-link  navbarLink" href="/logout">Logout</a>
+            </li>
+                <% } %>
+            </span>
+        </ul>
+    </div>
+</nav>
+<% if (error && error.length > 0){ %>
+    <div class="container">
+        <div class="alert alert-danger">
+            <%= error %>
+        </div>
+    </div>
+<% } %>
+<% if (success && success.length > 0){ %>
+    <div class="container">
+        <div class="alert alert-success">
+            <%= success %>
+        </div>
+    </div>
+
+<% } %>
