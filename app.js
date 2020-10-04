@@ -41,7 +41,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 app.use(methodOverride("_method"));
 
-mongoose.connect("mongodb://localhost/yelpcamp", {
+mongoose.connect("mongodb+srv://med:mila@cluster0.jv0ku.mongodb.net/yelpcamp?retryWrites=true&w=majority"||"mongodb://localhost/yelpcamp", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
