@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93b52fc-b6a5-4ed2-8aeb-bb3871cc50d9" name="Default Changelist" comment="" />
+    <list default="true" id="f93b52fc-b6a5-4ed2-8aeb-bb3871cc50d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +44,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hBwIamXflRWOcVmpTbSz3gfUkB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yelpCamp_final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -34,7 +67,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.textmate.bundles" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -72,40 +105,57 @@
       <workItem from="1600978224719" duration="728000" />
       <workItem from="1601289879756" duration="230000" />
       <workItem from="1601490097886" duration="47000" />
+      <workItem from="1601835995952" duration="2467000" />
+      <workItem from="1601839625007" duration="3021000" />
+      <workItem from="1601886356951" duration="3608000" />
+      <workItem from="1601903346035" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="376" y="198" width="604" height="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599517170844">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="352" y="205" width="546" height="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601841959387">
+      <screen x="0" y="27" width="1280" height="773" />
     </state>
+    <state x="352" y="205" width="546" height="398" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1280.773@0.27.1280.773" timestamp="1601841959387" />
     <state x="376" y="198" width="604" height="398" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1599517170844" />
     <state x="466" y="155" width="424" height="483" key="FileChooserDialogImpl" timestamp="1601490142301">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="483" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1601490142301" />
-    <state width="1343" height="146" key="GridCell.Tab.0.bottom" timestamp="1601290108959">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1257" height="155" key="GridCell.Tab.0.bottom" timestamp="1601842745095">
+      <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1257" height="156" key="GridCell.Tab.0.bottom/0.27.1280.773@0.27.1280.773" timestamp="1600973153519" />
+    <state width="1257" height="155" key="GridCell.Tab.0.bottom/0.27.1280.773@0.27.1280.773" timestamp="1601842745095" />
     <state width="1343" height="146" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1601290108959" />
-    <state width="1343" height="146" key="GridCell.Tab.0.center" timestamp="1601290108958">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1257" height="155" key="GridCell.Tab.0.center" timestamp="1601842745094">
+      <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1257" height="156" key="GridCell.Tab.0.center/0.27.1280.773@0.27.1280.773" timestamp="1600973153518" />
+    <state width="1257" height="155" key="GridCell.Tab.0.center/0.27.1280.773@0.27.1280.773" timestamp="1601842745094" />
     <state width="1343" height="146" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1601290108958" />
-    <state width="1343" height="146" key="GridCell.Tab.0.left" timestamp="1601290108958">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1257" height="155" key="GridCell.Tab.0.left" timestamp="1601842745093">
+      <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1257" height="156" key="GridCell.Tab.0.left/0.27.1280.773@0.27.1280.773" timestamp="1600973153518" />
+    <state width="1257" height="155" key="GridCell.Tab.0.left/0.27.1280.773@0.27.1280.773" timestamp="1601842745093" />
     <state width="1343" height="146" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1601290108958" />
-    <state width="1343" height="146" key="GridCell.Tab.0.right" timestamp="1601290108959">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1257" height="155" key="GridCell.Tab.0.right" timestamp="1601842745094">
+      <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1257" height="156" key="GridCell.Tab.0.right/0.27.1280.773@0.27.1280.773" timestamp="1600973153519" />
+    <state width="1257" height="155" key="GridCell.Tab.0.right/0.27.1280.773@0.27.1280.773" timestamp="1601842745094" />
     <state width="1343" height="146" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1601290108959" />
     <state width="1343" height="218" key="GridCell.Tab.1.bottom" timestamp="1600644164803">
       <screen x="0" y="27" width="1366" height="741" />
@@ -155,14 +205,27 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1343" height="218" key="GridCell.Tab.3.right/0.27.1366.741@0.27.1366.741" timestamp="1600644164805" />
-    <state x="172" y="32" key="SettingsEditor" timestamp="1600636445795">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="161" y="32" key="SettingsEditor" timestamp="1601842058748">
+      <screen x="0" y="27" width="1280" height="773" />
     </state>
+    <state x="161" y="32" key="SettingsEditor/0.27.1280.773@0.27.1280.773" timestamp="1601842058748" />
     <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1600636445795" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1600640119552">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1600640119552" />
+    <state x="278" y="133" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1601891450314">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="133" width="800" height="527" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1601891450314" />
+    <state x="254" y="27" width="762" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601836310485">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="254" y="27" width="762" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1280.773@0.27.1280.773" timestamp="1601836310485" />
+    <state x="468" y="311" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601891468409">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="468" y="311" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1601891468409" />
     <state x="347" y="176" key="run.anything.popup" timestamp="1600461364654">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

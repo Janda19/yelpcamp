@@ -8,6 +8,7 @@ const express = require("express"),
     localStrategy = require("passport-local"),
     passportMongoose = require("passport-local-mongoose"),
     user = require("./models/user"),
+   dotenv= require("dotenv").config({path:__dirname+"/.env"}),
 
     flash = require("connect-flash");
 
@@ -41,7 +42,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 app.use(methodOverride("_method"));
 
-mongoose.connect(process.env.DATABASEURL||"mongodb://localhost/yelpcamp", {
+// process.env['DATABASEURL']='mongodb://localhost/yelpcamp' ;
+
+console.log(process.env.DATABASEURL);
+mongoose.connect(process.env.DATABASEURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
