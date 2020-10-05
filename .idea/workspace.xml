@@ -24,11 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93b52fc-b6a5-4ed2-8aeb-bb3871cc50d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="f93b52fc-b6a5-4ed2-8aeb-bb3871cc50d9" name="Default Changelist" comment="add copyright">
       <change beforePath="$PROJECT_DIR$/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,8 +104,16 @@
       <workItem from="1601835995952" duration="2467000" />
       <workItem from="1601839625007" duration="3021000" />
       <workItem from="1601886356951" duration="3608000" />
-      <workItem from="1601903346035" duration="600000" />
+      <workItem from="1601903346035" duration="978000" />
     </task>
+    <task id="LOCAL-00001" summary="add copyright">
+      <created>1601904132526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601904132526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +130,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add copyright" />
+    <option name="LAST_COMMIT_MESSAGE" value="add copyright" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="205" width="546" height="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601841959387">
